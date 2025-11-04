@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "ng build",
+ "buildCommand": "npm install && ng build --prod",
   "outputDirectory": "dist/browser",
   "rewrites": [
     {
