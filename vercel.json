@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "buildCommand": "ng build --prod",
+  "outputDirectory": "dist/browser",
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "http://eventmunchserverazure.runasp.net/api/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
